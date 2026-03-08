@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.test.js --timeout 30000"
+    "test": "mocha test/**/*.Test.js --timeout 30000"
   },
   "keywords": [],
   "author": "",
