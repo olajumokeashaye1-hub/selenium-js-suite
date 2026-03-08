@@ -6,6 +6,8 @@ on:
     branches: [ main ]  # Change 'main' to your default branch if different
   pull_request:
     branches: [ main ]
+    schedule:
+      - cron: '45 2 * * *' #everyday at 9:45 pm EST
 
 jobs:
   test:
